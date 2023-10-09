@@ -7,3 +7,6 @@ class Animal {
         console.log(`${this.species} makes a sound: ${this.sound}`);
 }
 }
+
+class Dog extends Animal {
+    constructor(species, sound, color) { 
