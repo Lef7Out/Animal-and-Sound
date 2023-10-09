@@ -18,3 +18,9 @@ class Dog extends Animal {
       }
 }
 
+// Create an instance of the 'Dog' class
+  const myDog = new Dog('Dog', 'Woof', 'Brown');
+  
+  // Make the dog make its sound
+  myDog.makeSound();
+  
