@@ -10,3 +10,11 @@ class Animal {
 
 class Dog extends Animal {
     constructor(species, sound, color) { 
+        super(species, sound);
+        this.color = color;
+      }
+      makeSound() {
+        console.log(`${this.species} (color: ${this.color}) makes a sound: ${this.sound}`);
+      }
+}
+
